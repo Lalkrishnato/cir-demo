@@ -4,7 +4,7 @@ jobs:
     docker:
             - image:circleci/node:10.24.0
     steps:
-            - checkout
-            - run: npm install
-            - run: npm test     
+        - checkout
+        - run: npm install
+        - run: npm test     
 
